@@ -1,13 +1,13 @@
-# Use this space to code along with the readme
+def greeting
+  puts "Hello World!"
+end
 
-phrase = "Hello World!"
-puts phrase
-puts phrase
-puts phrase
-puts phrase
-puts phrase
-puts phrase
-puts phrase
-puts phrase
-puts phrase
-puts phrase
+greeting
+greeting
+greeting
+
+def other_greeting
+  return "other hello!"
+end
+
+puts other_greeting
